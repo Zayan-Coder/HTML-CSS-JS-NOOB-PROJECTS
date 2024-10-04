@@ -18,7 +18,7 @@ ratingEls.forEach((ratingEl) => {
 btnEl.addEventListener("click", () => {
   if (selectedRating !== "") {
     // Sending the email
-    window.location.href = `mailto:zayanm794@gmail.com?subject=Feedback&body=Feedback: ${selectedRating}`;
+    window.location.href = `mailto:zayanm794@gmail.com?subject=Feedback of feedback UI&body=Feedback: ${selectedRating}`;
 
     // Show thank you message after sending the email
     containerEl.innerHTML = `
